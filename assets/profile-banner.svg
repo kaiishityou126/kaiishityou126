@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-label="zhang jieshi — Java Backend and AI Application Developer">
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#13243b"/></linearGradient>
+<linearGradient id="line"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#5eead4"/></linearGradient>
+<pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M 36 0 L 0 0 0 36" fill="none" stroke="#8eacc8" stroke-opacity=".06"/></pattern>
+</defs>
+<rect width="1200" height="290" rx="20" fill="url(#bg)"/>
+<rect width="1200" height="290" rx="20" fill="url(#grid)"/>
+<path d="M0 289H1200" stroke="url(#line)" stroke-width="3"/>
+<rect x="58" y="47" width="6" height="18" rx="3" fill="#5eead4"/>
+<text x="78" y="61" fill="#7dd3fc" font-family="Segoe UI,Arial,sans-serif" font-size="14" letter-spacing="3">JAVA BACKEND / AI APPLICATIONS</text>
+<text x="58" y="135" fill="#f1f5f9" font-family="Segoe UI,Arial,sans-serif" font-size="55" font-weight="700">zhang jieshi</text>
+<text x="60" y="177" fill="#b8c7d9" font-family="Segoe UI,Arial,sans-serif" font-size="20">Connecting AI to real business.</text>
+<text x="60" y="233" fill="#6d8aa8" font-family="Consolas,monospace" font-size="14">MCP  /  SPEECH AI  /  ENTERPRISE SYSTEMS</text>
+<g fill="none" stroke="#37516c" stroke-width="2">
+<path d="M920 78L1028 143L920 209L812 143Z"/><path d="M920 108L978 143L920 178L862 143Z"/>
+<path d="M920 78V108M1028 143H978M920 209V178M812 143H862"/>
+<path d="M1028 143H1100M920 78V38M920 209V249"/>
+</g>
+<g fill="#5eead4"><circle cx="920" cy="78" r="5"/><circle cx="1028" cy="143" r="5"/><circle cx="920" cy="209" r="5"/></g>
+<circle cx="920" cy="143" r="21" fill="#122e40" stroke="#38bdf8"/>
+<text x="920" y="149" text-anchor="middle" fill="#7dd3fc" font-family="Consolas,monospace" font-size="17">AI</text>
+</svg>
