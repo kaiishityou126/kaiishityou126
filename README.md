@@ -18,12 +18,26 @@
 
 我是 **zhang jieshi**，从事 Java 后端与企业业务系统开发，目前重点探索 **AI 应用与企业数据的连接**。
 
-- 🤖 **AI 工程实践**：Spring AI / MCP 企业数据接入、本地语音识别与实时翻译。
+- 🤖 **AI 工程实践**：Agent / MCP / RAG 工厂智能交互、企业数据接入、本地语音识别与实时翻译。
 - 🏭 **业务系统经验**：制造业 WMS / MES / QMS / MDM，以及电商订单处理。
 - 🔗 **系统集成**：SAP / ASPROVA 接口对接、RabbitMQ 异步消息、新旧系统数据衔接。
 - 🛠️ **研发与交付**：技术方案设计、任务推进、编码规范、单元测试与上线问题闭环。
 
 ## 🤖 Featured AI Projects
+
+### 工厂智能镜子 Agent 平台
+**项目技术负责人 · 2026.05 – 至今 · 团队 5 人**
+
+面向工厂员工的智能交互平台，结合 **人脸 / NFC 身份识别**，展示个人任务与作业指导，并通过自然语言查询生产、订单、出货和库存信息，减少现场人员在多个业务系统与文档之间切换。
+
+- **架构与核心研发**：负责整体技术方案设计与核心功能开发，基于 **Agent + MCP + RAG** 构建智能交互架构，集成 MES、WMS 等工厂业务系统。
+- **身份与任务联动**：实现人脸 / NFC 身份识别 → 查询员工主数据 → 校验作业资格 → 推送今日生产任务与 ESOP 作业指导书。
+- **自然语言业务查询**：基于 MCP 接入 MES 生产任务、WMS / SAP 订单与出货状态、库存查询，并通过 RAG 支持作业指导书问答。
+- **数据访问约束**：结合 SQL 模板、白名单校验、数据库只读账号与调用审计，限制 Agent 对工厂业务数据的访问范围。
+
+`Spring Boot 3.4` `Spring AI MCP Server` `PostgreSQL / pgvector` `Redis` `Vue` `LLM` `人脸识别 / NFC`
+
+---
 
 ### [Enterprise Connector MCP](https://github.com/kaiishityou126/enterprise-connector-mcp)
 **为 AI Agent 与企业业务数据搭建受控的连接层。**
@@ -91,7 +105,7 @@
 
 <img src="https://skillicons.dev/icons?i=vue,ts,react,rust,tauri&theme=dark" alt="Vue, TypeScript, React, Rust, Tauri" />
 
-`Spring AI` · `MCP` · `OpenAI-compatible APIs` · `Ollama` · `sherpa-onnx`
+`Spring AI` · `Agent` · `MCP` · `RAG / pgvector` · `OpenAI-compatible APIs` · `Ollama` · `sherpa-onnx`
 
 ---
 
