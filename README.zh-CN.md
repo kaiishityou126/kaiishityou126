@@ -81,7 +81,14 @@
 
 <img src="https://skillicons.dev/icons?i=java,spring,postgres,redis,rabbitmq&theme=dark" alt="Java, Spring, PostgreSQL, Redis, RabbitMQ" />
 
-`Spring Boot / Cloud` · `JPA / MyBatis-Flex` · `Oracle / MariaDB`
+| 方向 | 技术与实践 |
+| :--- | :--- |
+| 后端服务 | Java 17 / 21、Spring Boot、Spring Cloud、REST API、WebClient |
+| 数据持久化 | PostgreSQL、Oracle、MariaDB、Spring Data JPA、MyBatis-Flex；新旧系统双库写入 |
+| 缓存与消息 | Redis + Caffeine 两级缓存、缓存失效、RabbitMQ 异步处理、延迟交换机、死信队列 |
+| 企业系统集成 | SAP / ASPROVA 接口对接、MES / WMS 业务流程、多租户数据源路由 |
+| 访问控制与可观测性 | 租户隔离、SQL 模板与白名单校验、限流、审计日志、Micrometer / Prometheus |
+| 工程与交付 | Maven / Gradle、Checkstyle、单元与集成测试、上线部署及问题排查 |
 
 **AI 与应用开发**
 
