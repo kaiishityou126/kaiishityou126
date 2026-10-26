@@ -81,7 +81,14 @@ Connects external platforms to an internal order system. Contributed to **Rabbit
 
 <img src="https://skillicons.dev/icons?i=java,spring,postgres,redis,rabbitmq&theme=dark" alt="Java, Spring, PostgreSQL, Redis, RabbitMQ" />
 
-`Spring Boot / Cloud` · `JPA / MyBatis-Flex` · `Oracle / MariaDB`
+| Area | Technologies & Practice |
+| :--- | :--- |
+| Backend services | Java 17 / 21, Spring Boot, Spring Cloud, REST APIs, WebClient |
+| Persistence | PostgreSQL, Oracle, MariaDB, Spring Data JPA, MyBatis-Flex; legacy / new-system dual writes |
+| Caching & messaging | Redis + Caffeine two-level caching, cache invalidation, RabbitMQ asynchronous processing, delayed exchanges, DLQs |
+| Enterprise integration | SAP / ASPROVA interfaces, MES / WMS workflows, multi-tenant data-source routing |
+| Access & observability | Tenant isolation, SQL templates and allowlist validation, rate limiting, audit logs, Micrometer / Prometheus |
+| Engineering & delivery | Maven / Gradle, Checkstyle, unit and integration testing, deployment and post-launch troubleshooting |
 
 **AI & Application Development**
 
